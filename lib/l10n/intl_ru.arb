@@ -1,0 +1,9 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Приложение для интернализации",
+  "@appTitle": {},
+  "counterText": "{counter, plural, zero{Вы никогда не нажимали на кнопку.} one{Вы нажали эту кнопку {counter} раз.} few{Вы нажимали эту кнопку {counter} раз.} many{Вы нажимали эту кнопку {counter} раз.} other{Вы нажимали эту кнопку {counter} раз.}}",
+  "@counterText": {},
+  "yourLanguageCodeIs": "Ваш языковой код:",
+  "@yourLanguageCodeIs": {}
+}

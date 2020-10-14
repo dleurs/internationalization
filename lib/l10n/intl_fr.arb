@@ -1,0 +1,9 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Application d'internalisation",
+  "@appTitle": {},
+  "counterText": "{counter, plural, zero{Vous n'avez jamais appuyé sur le bouton.} one{Vous avez appuyé une fois sur ce bouton.} other{Vous avez appuyé sur ce bouton {counter} fois.}}",
+  "@counterText": {},
+  "yourLanguageCodeIs": "Votre code de langue est:",
+  "@yourLanguageCodeIs": {}
+}

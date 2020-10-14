@@ -1,16 +1,43 @@
-# internalisation
+# Internalisation
 
-A new Flutter project.
+Localisation requires the Flutter Intl plugin (available on VSCode and IntelliJ marketplaces)
+Needs to be installed to properly add and manage new supported locales
 
-## Getting Started
+- Flutter Intl on Android Studio (IntelliJ)
+- Flutter Intl on VSCode
 
-This project is a starting point for a Flutter application.
+![Demo App](/assets/demo-app.gif)
 
-A few resources to get you started if this is your first Flutter project:
+Check this URL for information :<br/>
+https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Initialise, cmd-vscode : Flutter Intl: Initialize
+- ios/Runner/Info.plist add 
+```bash
+<key>CFBundleLocalizations</key>
+<array>
+    <string>en</string>
+    <string>fr_FR</string>
+    ...
+</array>
+```
+- Add language, cmd-vscode : Flutter Intl: Add locale
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To check plural :<br/>
+https://pub.dev/documentation/intl/latest/intl/Intl/plural.html
+
+To check gender : <br/>
+https://pub.dev/documentation/intl/latest/intl/Intl/gender.html
+
+Other demo :<br/>
+https://github.com/localizely/flutter-intl-plugin-sample-app
+
+Youtube video :<br/>
+https://www.youtube.com/watch?v=MQo32dQxxjg
+
+Localizely :<br/>
+https://localizely.com/flutter-localization-workflow/<br/>
+Connecting with Localizely ID project and Key did not work. Import / export arb
+
+Localise has got a good interface for translation <br/>
+![ScreenshotLocalizely](/assets/ScreenshotLocalizely.png)
