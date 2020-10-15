@@ -42,3 +42,7 @@ Connecting with Localizely ID project and Key did not work. Import / export arb
 Localise has got a good interface for translation <br/>
 You can import / export .arb files<br/>
 ![ScreenshotLocalizely](/assets/ScreenshotLocalizely.png)
+
+
+Bonus, change language in settings<br/>
+![Demo App](/assets/internalisation-settings.gif)
