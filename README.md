@@ -1,5 +1,7 @@
 # Internalisation
 
+Implementing Internalisation only of the fluter-starter project
+
 Localisation requires the Flutter Intl plugin (available on VSCode and IntelliJ marketplaces)
 Needs to be installed to properly add and manage new supported locales
 
