@@ -1,9 +1,7 @@
 {
-  "@@locale": "en",
-  "appTitle": "Internalisation App",
-  "@appTitle": {},
-  "counterText": "{counter, plural, zero{You have never pushed the button.} one{You have pushed this button one time.} other{You have pushed this button {counter} times.}}",
-  "@counterText": {},
-  "yourLanguageCodeIs": "Your language code is :",
-  "@yourLanguageCodeIs": {}
+    "@@locale": "en",
+    "@@last_modified": "2020-11-25T14:36:30+0000",
+    "appTitle": "Super Internalisation App ",
+    "counterText": "{counter, plural, zero{You have never pushed the button.} one{You have pushed this button one time.} other{You have pushed this button {counter} times.}}",
+    "yourLanguageCodeIs": "Your language code is :"
 }

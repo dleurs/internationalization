@@ -23,7 +23,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "appTitle" : MessageLookupByLibrary.simpleMessage("Internalisation App"),
+    "appTitle" : MessageLookupByLibrary.simpleMessage("Super Internalisation App "),
     "counterText" : m0,
     "yourLanguageCodeIs" : MessageLookupByLibrary.simpleMessage("Your language code is :")
   };

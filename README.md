@@ -13,6 +13,21 @@ Needs to be installed to properly add and manage new supported locales
 Check this URL for information :<br/>
 https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl
 
+- Add to podspec.yaml
+```yaml
+#dependencies:
+#  flutter:
+#    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.16.1
+  intl_utils: ^1.8.0
+```
+
+```bash
+flutter pub get
+```
+
 - Initialise, cmd-vscode : Flutter Intl: Initialize
 - ios/Runner/Info.plist add 
 ```bash
@@ -23,7 +38,22 @@ https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl
     ...
 </array>
 ```
+
+- Add to your MaterialApp()
+```dart
+localizationsDelegates: [
+S.delegate,
+GlobalMaterialLocalizations.delegate,
+GlobalWidgetsLocalizations.delegate,
+GlobalCupertinoLocalizations.delegate,
+],
+supportedLocales: S.delegate.supportedLocales,
+```
 - Add language, cmd-vscode : Flutter Intl: Add locale
+- Create / modify .arb files, put them inside lib/l10n (always replace existing)
+- Inside Text widget, add something like S.of(context).my_name
+- Finito
+
 
 To check plural :<br/>
 https://pub.dev/documentation/intl/latest/intl/Intl/plural.html
